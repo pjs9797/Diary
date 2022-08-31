@@ -13,6 +13,12 @@
 		31694C9628BDF9130001E556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31694C9428BDF9130001E556 /* Main.storyboard */; };
 		31694C9828BDF9140001E556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31694C9728BDF9140001E556 /* Assets.xcassets */; };
 		31694C9B28BDF9140001E556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31694C9928BDF9140001E556 /* LaunchScreen.storyboard */; };
+		31694CA328BDFD3C0001E556 /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31694CA228BDFD3C0001E556 /* DiaryCell.swift */; };
+		31694CA528BDFD860001E556 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31694CA428BDFD860001E556 /* StarViewController.swift */; };
+		31694CA728BE02880001E556 /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31694CA628BE02880001E556 /* StarCell.swift */; };
+		31694CA928BE04710001E556 /* WriteDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31694CA828BE04710001E556 /* WriteDiaryViewController.swift */; };
+		31694CAB28BE06370001E556 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31694CAA28BE06370001E556 /* DiaryDetailViewController.swift */; };
+		31694CAD28BE1C440001E556 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31694CAC28BE1C440001E556 /* Diary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		31694C9728BDF9140001E556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31694C9A28BDF9140001E556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31694C9C28BDF9140001E556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31694CA228BDFD3C0001E556 /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
+		31694CA428BDFD860001E556 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		31694CA628BE02880001E556 /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
+		31694CA828BE04710001E556 /* WriteDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryViewController.swift; sourceTree = "<group>"; };
+		31694CAA28BE06370001E556 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		31694CAC28BE1C440001E556 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				31694C9728BDF9140001E556 /* Assets.xcassets */,
 				31694C9928BDF9140001E556 /* LaunchScreen.storyboard */,
 				31694C9C28BDF9140001E556 /* Info.plist */,
+				31694CA228BDFD3C0001E556 /* DiaryCell.swift */,
+				31694CA428BDFD860001E556 /* StarViewController.swift */,
+				31694CA628BE02880001E556 /* StarCell.swift */,
+				31694CA828BE04710001E556 /* WriteDiaryViewController.swift */,
+				31694CAA28BE06370001E556 /* DiaryDetailViewController.swift */,
+				31694CAC28BE1C440001E556 /* Diary.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				31694C9328BDF9130001E556 /* ViewController.swift in Sources */,
+				31694CA928BE04710001E556 /* WriteDiaryViewController.swift in Sources */,
+				31694CA728BE02880001E556 /* StarCell.swift in Sources */,
 				31694C8F28BDF9130001E556 /* AppDelegate.swift in Sources */,
 				31694C9128BDF9130001E556 /* SceneDelegate.swift in Sources */,
+				31694CAD28BE1C440001E556 /* Diary.swift in Sources */,
+				31694CAB28BE06370001E556 /* DiaryDetailViewController.swift in Sources */,
+				31694CA328BDFD3C0001E556 /* DiaryCell.swift in Sources */,
+				31694CA528BDFD860001E556 /* StarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
